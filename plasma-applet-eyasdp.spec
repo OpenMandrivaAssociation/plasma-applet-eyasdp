@@ -47,3 +47,28 @@ rm -rf %{buildroot}
 %{_kde_services}/plasma-applet-%{shortname}.desktop
 
 
+
+
+%changelog
+* Thu Jan 05 2012 Andrey Bondrov <abondrov@mandriva.org> 0.9.0-69.2mdv2011.0
++ Revision: 757848
+- imported package plasma-applet-eyasdp
+
+
+* Thu Jan 05 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 0.9.0-69.2-mib2011.0
+- Add patch with russian translation
+- Add kdebase4-workspace-devel to BuildRequires
+
+* Mon Dec 12 2011 Giovanni Mariani <mc2374@mclink.it> 0.9.0-69.1-mib2011.0
+- New release 0.9.0
+- Removed useless things with rpm5
+- Added use of %%find_lang macro
+
+* Mon Dec 06 2011 Giovanni Mariani <mc2374@mclink.it> 0.5.0-69.1-mib2011.0
+- Rebuilded for Mdv 2011.0
+
+* Fri Dec 02 2011 Giovanni Mariani <mc2374@mclink.it> 0.5.0-69.1mib2010.2
+- Adapted to Mdv 2010.2 by the MIB (from a Mageia greek community package)
+- Added BuildRoot, a couple of BReqs (see configure output) and a %%changelog
+- Added a little patch to keep desktop-file-validate happy
+- Made sure to use consistently the curly brackets for macro names
