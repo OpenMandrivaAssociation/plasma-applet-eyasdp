@@ -4,7 +4,7 @@
 Summary:	System buttons plasmoid
 Name:		plasma-applet-%{shortname}
 Version:	1.2.0
-Release:	3
+Release:	4
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		http://kde-look.org/content/show.php/eYaSDP?content=146530
