@@ -7,7 +7,7 @@ Version:	1.2.0
 Release:	4
 License:	GPLv2+
 Group:		Graphical desktop/KDE
-Url:		http://kde-look.org/content/show.php/eYaSDP?content=146530
+Url:		https://kde-look.org/content/show.php/eYaSDP?content=146530
 Source0:	http://kde-look.org/CONTENT/content-files/146530-%{shortname}-%{version}.tar.bz2
 BuildRequires:	kdelibs4-devel
 BuildRequires:	kdebase4-workspace-devel
